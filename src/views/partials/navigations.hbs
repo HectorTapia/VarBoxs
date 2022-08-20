@@ -1,0 +1,17 @@
+<div class="head">
+  <div class="logo">
+    <img src="/images/logo-2.png" alt="">
+  </div>
+  <nav class="navbar">
+    <a href="/">Inicio</a>
+    <a href="/productos">Productos</a>
+    {{#if user}}
+      <a href="/logout">Cerrar Sesion</a>
+      <a href="/logout"><img src="images/ico-salir.png" alt="" width="15" height="15"></a>
+<a href="" class="navbarn"><img src="images/ico-canasta.png" alt=""></a>
+        {{else}}
+      <a href="/logout">Iniciar Sesion</a>
+    {{/if}}
+    
+  </nav>
+</div>

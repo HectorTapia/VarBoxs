@@ -1,0 +1,18 @@
+.login-design{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 100vh;
+}
+
+.waves{
+    background-color: #3e3e3e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/login/f-1.png);
+    background-position: center;
+}
+
+.login{
+    
+    background-color: red;
+}

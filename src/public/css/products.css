@@ -1,0 +1,30 @@
+.position{
+    position: relative;
+    transform: scale(1.05);
+}
+
+.slider{
+    background-image: url(../images/slide/s-1.png);
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    height: 30vh;
+    
+    border-bottom: 10px;
+    animation: animate 12s infinite 0s;
+    transform: scale(1.05);
+}
+
+@keyframes animate{
+    30%{
+        background-image: url(../images/slide/s-3.jpg);
+        background-size: cover;
+        transform: scale(1.05);
+    }
+    60%{
+        background-image: url(../images/slide/s-2.jpg);
+        background-size: cover;
+        transform: scale(1.05);
+    }
+}
+
